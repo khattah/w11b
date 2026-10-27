@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudanese Market | Home</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+
+    <header>
+        <h1>Sudanese Market</h1>
+        <p>Discover Traditional Sudanese Products</p>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="checkout.html">Checkout 🛒 (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Our Products</h2>
+        <p>Choose your favorite Sudanese products.</p>
+
+        <section class="products">
+
+            <div class="product">
+                <img src="https://placehold.co/300x200?text=Sudanese+Coffee"
+                     alt="Sudanese Coffee">
+
+                <h3>Sudanese Coffee</h3>
+                <p>Traditional Sudanese coffee</p>
+                <p class="price">$12.99</p>
+
+                <button onclick="addToCart(1)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="product">
+                <img src="https://placehold.co/300x200?text=Sudanese+Toub"
+                     alt="Sudanese Toub">
+
+                <h3>Sudanese Toub</h3>
+                <p>Traditional Sudanese clothing</p>
+                <p class="price">$45.00</p>
+
+                <button onclick="addToCart(2)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="product">
+                <img src="https://placehold.co/300x200?text=Sudanese+Spices"
+                     alt="Sudanese Spices">
+
+                <h3>Sudanese Spices</h3>
+                <p>Authentic Sudanese spices</p>
+                <p class="price">$8.50</p>
+
+                <button onclick="addToCart(3)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="product">
+                <img src="https://placehold.co/300x200?text=Handmade+Basket"
+                     alt="Handmade Basket">
+
+                <h3>Handmade Basket</h3>
+                <p>Traditional handmade basket</p>
+                <p class="price">$25.00</p>
+
+                <button onclick="addToCart(4)">
+                    Add to Cart
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sudanese Market. All rights reserved.</p>
+    </footer>
+
+    <!-- js-cookie library -->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+
+    <!-- Our JavaScript -->
+    <script src="app.js"></script>
+
+</body>
+</html>
