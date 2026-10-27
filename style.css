@@ -254,3 +254,23 @@ footer {
         height: 180px;
     }
 }
+/* Delete button */
+
+.delete-button {
+    width: auto;
+    min-width: 90px;
+    margin-left: auto;
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #b02a37;
+}
+
+@media (max-width: 600px) {
+    .delete-button {
+        width: 100%;
+        margin-left: 0;
+    }
+}

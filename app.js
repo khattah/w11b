@@ -65,6 +65,7 @@ function addToCart(productId) {
         sameSite: "Lax"
     });
 
+    // Update cart counter
     updateCartCount();
 
     alert(selectedProduct.name + " added to cart!");
